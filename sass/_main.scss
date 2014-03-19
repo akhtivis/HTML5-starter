@@ -1,0 +1,179 @@
+/* =HTML5 Boilerplate styles w/ customizations
+----------------------------------------------- */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+a {
+    color: #999999;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: normal;
+    font-weight: normal;
+    margin: 25px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* =Content
+----------------------------------------------- */
+
+.site-header {
+    padding: 20px 0;
+}
+
+.title {
+}
+
+.wrap {
+    width: 96%;
+    margin: auto;
+}
+
+.main {
+    padding: 30px 0;
+    article h1 {
+        font-size: 2em;
+    }
+
+    aside {
+        padding: 0px 5% 10px;
+    }
+}
+
+.site-footer {
+    padding: 20px 0;
+}
+
+
+/* =Mobile Menu
+----------------------------------------------- */
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: block;
+    }
+
+    a {
+        display: block;
+        margin-bottom: 10px;
+        padding: 15px 0;
+
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+nav {
+    a:hover,
+    a:visited {
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+
+/* =Helper Classes
+----------------------------------------------- */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+    &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 150%;
+    }
+}
+
+.wrap {
+    &:before,
+    &:after {
+        content:"";
+        display:table;
+    }
+    &:after {
+        clear:both;
+    }
+}

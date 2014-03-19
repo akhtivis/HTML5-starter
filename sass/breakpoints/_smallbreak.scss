@@ -1,0 +1,20 @@
+/* =Small Breakpoint
+----------------------------------------------- */
+
+nav {
+    a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    li:first-child a {
+        margin-left: 0;
+    }
+
+    li:last-child a {
+        margin-right: 0;
+    }
+}
