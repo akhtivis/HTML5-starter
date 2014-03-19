@@ -393,7 +393,7 @@ nav a:hover {
 }
 /* import print.scss */
 @media print {
-  /* =Print Style
+  /* =Print Styles
   ----------------------------------------------- */
   * {
     background: transparent !important;
